@@ -197,3 +197,17 @@ This is a **proposed** layout, not confirmation that every file is approved for 
 Academic research and computational chemistry portfolio. Results are
 descriptive of the reported retrospective analyses; no independent
 prospective validation is claimed.
+
+## Data Source and Licensing
+
+The experimental bioactivity data used in this study were obtained from the ChEMBL database (human acetylcholinesterase, CHEMBL220).
+
+The curated dataset (`data/processed/AChE_QSAR_provisional.csv`) was derived from ChEMBL records through filtering, molecular standardization, and aggregation of IC50 measurements.
+
+ChEMBL data are distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license. The redistributed curated dataset is provided under the same license.
+
+**Data source:** https://www.ebi.ac.uk/chembl/
+
+**License:** https://creativecommons.org/licenses/by-sa/3.0/
+
+The dataset is provided for research and reproducibility purposes. Assay provenance and experimental comparability have not been independently verified for every record.
